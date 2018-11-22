@@ -21,7 +21,7 @@ gem 'sass', '~> 3.4.9'
 gem 'sass-rails'
 gem 'coffee-rails'
 gem 'uglifier'
-
+gem 'le'
 platform :ruby do
   gem 'mysql2', '~> 0.3.17'
   gem 'pg', '~> 0.18.1'
