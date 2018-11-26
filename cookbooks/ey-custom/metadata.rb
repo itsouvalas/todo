@@ -1,2 +1,6 @@
 name 'ey-custom'
-depends 'custom-cron'
+#depends 'custom-cron'
+#depends 'custom-redis'
+#depends 'custom-sidekiq'
+depends 'custom-hosts'
+depends 'custom-packages'

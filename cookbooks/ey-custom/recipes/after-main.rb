@@ -1,1 +1,5 @@
-include_recipe 'custom-cron'
+#include_recipe 'custom-cron'
+#include_recipe 'custom-redis'
+#include_recipe 'custom-sidekiq'
+include_recipe 'custom-hosts'
+include_recipe 'custom-packages'
