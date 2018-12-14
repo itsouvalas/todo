@@ -69,12 +69,14 @@ GEM
     mail (2.7.0)
       mini_mime (>= 0.1.1)
     mini_mime (1.0.0)
-    mini_portile2 (2.1.0)
+    mini_portile2 (2.3.0)
     minitest (5.11.3)
     mysql2 (0.3.21)
     newrelic_rpm (3.9.9.275)
-    nokogiri (1.6.8.1)
-      mini_portile2 (~> 2.1.0)
+    nokogiri (1.8.5)
+      mini_portile2 (~> 2.3.0)
+    nokogumbo (1.5.0)
+      nokogiri
     pg (0.18.4)
     psych (2.0.17)
     puma (3.11.3)
@@ -367,7 +369,8 @@ DEPENDENCIES
   minitest
   mysql2 (~> 0.3.17)
   newrelic_rpm (~> 3.9.9)
-  nokogiri (~> 1.6.0)
+  nokogiri (~> 1.8.4)
+  nokogumbo (~> 1.5.0)
   pg (~> 0.18.1)
   psych (~> 2.0.8)
   puma
@@ -387,4 +390,4 @@ DEPENDENCIES
   unicorn
 
 BUNDLED WITH
-   1.16.1
+   1.16.6
