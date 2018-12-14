@@ -13,8 +13,7 @@ gem 'simple_form', '~> 3.1.0'
 
 #gem 'nokogiri', '~> 1.6.0'
 gem 'nokogiri', '~> 1.8.4'
-gem 'mini_portile2', '~>2.3.0'
-gem 'nokogumbo', '~> 1.5.0'
+gem 'nokogumbo', '~> 2.0.0'
 gem 'rake', '~> 10.4'
 gem 'rgeo', '~> 0.3'
 

@@ -75,8 +75,8 @@ GEM
     newrelic_rpm (3.9.9.275)
     nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
-    nokogumbo (1.5.0)
-      nokogiri
+    nokogumbo (2.0.1)
+      nokogiri (~> 1.8, >= 1.8.4)
     pg (0.18.4)
     psych (2.0.17)
     puma (3.11.3)
@@ -366,12 +366,11 @@ DEPENDENCIES
   jquery-rails
   jruby-openssl
   json (>= 2.0)
-  mini_portile2 (~> 2.3.0)
   minitest
   mysql2 (~> 0.3.17)
   newrelic_rpm (~> 3.9.9)
   nokogiri (~> 1.8.4)
-  nokogumbo (~> 1.5.0)
+  nokogumbo (~> 2.0.0)
   pg (~> 0.18.1)
   psych (~> 2.0.8)
   puma
