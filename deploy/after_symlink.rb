@@ -1,5 +1,5 @@
 path= "/data/shared/reports"
-symink= "#{config.release_path}/reports"
+symlink= "#{config.release_path}/reports"
 unless File.exists?(path)
 	run "mkdir -p /data/shared/reports"
 end
